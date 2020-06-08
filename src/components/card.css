@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+@media (min-width: 768px) .cardContainer {
+  flex-direction: row;
+}
+
+.cardContainer {
+  /* max-width: 26rem;
+  width: 100%; */
+  /* border: 2px solid red; */
+  border-radius: 5px;
+  flex-direction: column;
+  margin: 0.5em auto;
+  /* display: flex; */
+}
+
+.cardTitle {
+  display: inline-block;
+  padding: 0.4em 1em;
+  position: relative;
+  top: 0.8em;
+  left: 4em;
+  background: #e9a522;
+  border-radius: 3px;
+}
+
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.1em;
+  color: #1e0906;
+}
+
+.cardBody {
+  display: flex;
+  width: 100%;
+  background: #ffff;
+  border: 3px solid #e9a522;
+  padding: 1em;
+  border-radius: 5px 5px 0px 0px;
+  flex-direction: column;
+}
+
+.descText {
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  text-align: center;
+  width: 50%;
+  margin: 0.1em 0.3em 0.1em 0.1em;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 23em;
+  max-width: 23em;
+  min-height: 10em;
+  ]justify-content: space-between;
+}
+
+.mainImage {
+  /* height: 10em;
+  width: 11em; */
+  width: 40%;
+  margin: 0.1em 0.1em 0.1em 0.1em;
+}
+
+.cardFooter {
+  height: 2.5em;
+  width: 100%;
+  background: #e9a522;
+  border-radius: 0px 0px 5px 5px;
+}

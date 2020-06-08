@@ -1,0 +1,17 @@
+.headerContainer {
+  height: 80px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #1b0804;
+  justify-content: space-between;
+}
+
+#logo {
+  height: 60px;
+  margin-left: 20px;
+}
+
+.seachContainer {
+  margin-right: 20px;
+}
